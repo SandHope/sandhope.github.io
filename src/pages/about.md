@@ -7,7 +7,7 @@ title: About
     <img src="/assets/logo-large.jpg" width="510" alt="Sand Hope" style="box-shadow: none">
 </p>
 
-# About Sand Hope
+# About 🌱 Sand Hope
 
 Hello, my name is fuxingZhang, and starting from 2025, I will be embarking
 on an exciting journey as a full-time independent developer with a primary

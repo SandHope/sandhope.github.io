@@ -2,9 +2,6 @@
 import { Icon } from "astro-iconify";
 import HeaderLink from "./HeaderLink.astro";
 import ToggleMenu from "~/components/core/ToggleMenu.astro";
-
-const { pathname } = Astro.url;
-const currentPath = pathname.slice(1).replace(/\.\w+$/, ""); // Remove the first `/` and file extension.
 ---
 
 <style is:inline>
@@ -25,7 +22,7 @@ const currentPath = pathname.slice(1).replace(/\.\w+$/, ""); // Remove the first
 				<span
 					class="self-center ml-2 text-2xl font-extrabold text-gray-900 whitespace-nowrap dark:text-white"
 				>
-					Sand Hope
+					🌱 Sand Hope
 				</span>
 			</a>
 			<div class="flex items-center md:hidden">
