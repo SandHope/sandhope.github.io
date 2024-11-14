@@ -2,11 +2,10 @@
 const { href, class: className, ...properties } = Astro.props;
 const { pathname } = Astro.url;
 
-// const currentPath = pathname.slice(1).replace(/\.\w+$/, ''); // Remove the first `/` and file extension.
-// const isActive = currentPath.startsWith(href.replace(/^\//, ''));
-
-const subpath = pathname.match(/[^\/]+/g);
-const isActive = href === pathname || href === "/" + subpath?.[0];
+// pathname "/", href "/"
+// pathname "/blog.html", href "/blog"
+// const currentPath = pathname.replace(/\.\w+$/, ''); // Remove the first `/` and file extension.
+const isActive = href == "/" ? pathname == href : pathname.startsWith(href);
 
 const activeClass =
 	"underline underline-offset-[7px] decoration-[3px] decoration-secondary-500";
