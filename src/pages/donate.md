@@ -31,7 +31,7 @@ If you or your company are using any of my projects, consider supporting me so I
 
 ### Monthly donations
 
-- [GitHub Sponsors](https://github.com/sponsors/sandhope)
+<!-- - [GitHub Sponsors](https://github.com/sponsors/sandhope) -->
 - [Open Collective](https://opencollective.com/sandhope)
 
 ### One-time donations
